@@ -38,7 +38,7 @@ function init() {
     const loader = new Rhino3dmLoader()
     loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@0.13.0/' )
 
-    loader.load( 'Random cubes.3dm', function ( object ) {
+    loader.load( 'random cubes.3dm', function ( object ) {
 
         document.getElementById('loader').remove()
         scene.add( object )
